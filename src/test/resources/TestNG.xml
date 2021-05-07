@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumBDDProject" parallel="tests" verbose="1" configfailurepolicy="continue" thread-count="1">
+	<test name="Automated Test Website" preserve-order="true">
+		<classes>
+			<class name="Com.Test.Levin.runners.TestRunner" />
+		</classes>
+	</test>
+</suite>

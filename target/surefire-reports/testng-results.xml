@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumBDDProject" duration-ms="62562" started-at="2021-05-07T11:35:13Z" finished-at="2021-05-07T11:36:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.Test.Levin.runners.TestRunner@36f6e879]" name="feature" class="Com.Test.Levin.runners.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Automated Test Website" duration-ms="62562" started-at="2021-05-07T11:35:13Z" finished-at="2021-05-07T11:36:15Z">
+      <class name="Com.Test.Levin.runners.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Com.Test.Levin.runners.TestRunner@36f6e879]" name="setUp" is-config="true" duration-ms="173" started-at="2021-05-07T11:35:13Z" finished-at="2021-05-07T11:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.Test.Levin.runners.TestRunner@36f6e879]" name="feature" duration-ms="62295" started-at="2021-05-07T11:35:13Z" description="Runs Cucumber Features" data-provider="features" finished-at="2021-05-07T11:36:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate the practice website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Test.Levin.runners.TestRunner@36f6e879]" name="tearDown" is-config="true" duration-ms="21" started-at="2021-05-07T11:36:15Z" finished-at="2021-05-07T11:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Test.Levin.runners.TestRunner -->
+    </test> <!-- Automated Test Website -->
+  </suite> <!-- SeleniumBDDProject -->
+</testng-results>

@@ -1,0 +1,17 @@
+Com\Test\Levin\stepDefinitions\PracticeSite_StepDefs.class
+Com\Test\Levin\pageObjects\OrderHistoryPage.class
+Com\Test\Levin\supportLibraries\Helper.class
+Com\Test\Levin\pageObjects\SignInPage$Authentication.class
+Com\Test\Levin\runners\TestRunner.class
+Com\Test\Levin\pageObjects\ShoppingCartPage$Payment.class
+Com\Test\Levin\pageObjects\MyAccountPage.class
+Com\Test\Levin\pageObjects\ShoppingCartPage$Summary.class
+Com\Test\Levin\pageObjects\HomePage$TShirts.class
+Com\Test\Levin\pageObjects\HomePage.class
+Com\Test\Levin\pageObjects\ShoppingCartPage$Address.class
+Com\Test\Levin\pageObjects\ShoppingCartPage.class
+Com\Test\Levin\pageObjects\HomePage$ProductAddedToCart.class
+Com\Test\Levin\pageObjects\MyAccountPage$Your_Personal_Information.class
+Com\Test\Levin\supportLibraries\Settings.class
+Com\Test\Levin\pageObjects\ShoppingCartPage$Shipping.class
+Com\Test\Levin\pageObjects\SignInPage.class
