@@ -4,12 +4,12 @@ The automation test scripts are created in a framework with minimal features, us
 
 ## Pre-requisites
 
-* Java[https://java.com/en/download/manual.jsp]
-* Maven[https://maven.apache.org/download.cgi]
-* Eclipse[https://eclipse.org/downloads/]
+* [Java](https://java.com/en/download/manual.jsp)
+* [Maven](https://maven.apache.org/download.cgi)
+* [Eclipse](https://eclipse.org/downloads/)
 	* Plugins for Eclipse
-		* Cucumber[http://download.eclipse.org/technology/m2e/releases/latest/]
-		* Maven[http://download.eclipse.org/technology/m2e/releases/latest/]
+		* [Cucumber](http://download.eclipse.org/technology/m2e/releases/latest/)
+		* [Maven](http://download.eclipse.org/technology/m2e/releases/latest/)
 	
 ## Setting up the framework(for Windows)
 
@@ -24,22 +24,7 @@ The automation test scripts are created in a framework with minimal features, us
 
 ## Framework Structure
 
-ProjectLocation
-	|_Drivers
-	|_src
-		|_ main
-	 	|_ test
-	 	 	|_java
-	  			|_Com.Test.Levin.pageObjects
-	  			|_Com.Test.Levin.runners
-	  			|_Com.Test.Levin.stepDefenitions
-	  			|_Com.Test.Levin.supportLibraries
-	  		|_resources
-			   |_features
-			   |_log4j.xml
-			   |_Settings.properties
-			   |_TestNG.xml
-	|_pom.xml
+![Framework structure](/Doc/Framework_Structure.png)
    
 ## Further improvements
 * Capability to run tests in multiple browsers can be added(As of now by default running tests in the Chrome browser)
